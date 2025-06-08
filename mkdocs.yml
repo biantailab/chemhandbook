@@ -1,0 +1,84 @@
+site_name: 化学合成实验手册
+repo_url: https://github.com/biantailab/chemhandbook-mkdocs
+repo_name: biantailab/chemhandbook
+nav:
+  - 首页: index.md
+  - 模板: 
+    - 四苄基钛: template/四苄基钛.md
+  - 有机物:
+    - FOX-7: organic/FOX-7/FOX-7.md
+    - 甘脲: organic/甘脲/甘脲.md
+    - PETN: organic/PETN/PETN.md
+    - TNT: organic/TNT/TNT.md
+    - DFTHP: organic/DFTHP/DFTHP.md
+    - RDX: organic/RDX/RDX.md
+    - 1,4-DNI: organic/1,4-DNI/1,4-DNI.md
+    - HBIW: organic/HBIW/HBIW.md
+    - 4-NI: organic/4-NI/4-NI.md
+    - DAF: organic/DAF/DAF.md
+    - MPO: organic/MPO/MPO.md
+    - ETN: organic/ETN/ETN.md
+    - TMETN: organic/TMETN/TMETN.md
+  - 无机物:
+    - 叠氮化银: inorganic/叠氮化银/叠氮化银.md
+    - 氰化钾: inorganic/氰化钾/氰化钾.md
+
+
+theme:
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+copyright: Copyright &copy; 2025 BianTai LAB
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/biantailab
+      name: GitHub
+    - icon: fontawesome/brands/x-twitter 
+      link: https://x.com/biantailab
+      name: X
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/sDdzdsCzN7
+      name: discord
+    - icon: fontawesome/solid/paper-plane
+      link: https://t.me/+eCTrA4kOiCI2ZTA1
+      name: Telegram
+extra_css:
+  - css/custom.css
+extra_javascript:
+  - js/chemdraw.js
+  - js/smiles-drawer.min.js
+  - js/custom.js
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
