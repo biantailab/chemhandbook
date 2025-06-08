@@ -1,6 +1,7 @@
 site_name: 化学合成实验手册
 repo_url: https://github.com/biantailab/chemhandbook-mkdocs
 repo_name: biantailab/chemhandbook
+docs_dir: src
 nav:
   - 首页: index.md
   - 模板: 
