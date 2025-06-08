@@ -8,27 +8,27 @@
 
 如果你知道别的化合物的合成方法，或你发现手册中有问题并不能达到实验，欢迎 Fork 修改后提交 Pull request 就OK了。
 
-在写新的化合物时，请复制并修改已有的模板: [四苄基钛](docs/template/四苄基钛.md)。
+在写新的化合物时，请复制并修改已有的模板: [四苄基钛](src/template/四苄基钛.md)。
 
 ## 手册目录
 
 ### 有机物
 
-* [FOX-7](docs/organic/FOX-7/FOX-7.md)
-* [甘脲](docs/organic/甘脲/甘脲.md)
-* [PETN](docs/organic/PETN/PETN.md)
-* [TNT](docs/organic/TNT/TNT.md)
-* [DFTHP](docs/organic/DFTHP/DFTHP.md)
-* [RDX](docs/organic/RDX/RDX.md)
-* [1,4-DNI](docs/organic/1,4-DNI/1,4-DNI.md)
-* [HBIW](docs/organic/HBIW/HBIW.md)
-* [4-NI](docs/organic/4-NI/4-NI.md)
-* [DAF](docs/organic/DAF/DAF.md)
-* [MPO](docs/organic/MPO/MPO.md)
-* [ETN](docs/organic/ETN/ETN.md)
-* [TMETN](docs/organic/TMETN/TMETN.md)
+* [FOX-7](src/organic/FOX-7/FOX-7.md)
+* [甘脲](src/organic/甘脲/甘脲.md)
+* [PETN](src/organic/PETN/PETN.md)
+* [TNT](src/organic/TNT/TNT.md)
+* [DFTHP](src/organic/DFTHP/DFTHP.md)
+* [RDX](src/organic/RDX/RDX.md)
+* [1,4-DNI](src/organic/1,4-DNI/1,4-DNI.md)
+* [HBIW](src/organic/HBIW/HBIW.md)
+* [4-NI](src/organic/4-NI/4-NI.md)
+* [DAF](src/organic/DAF/DAF.md)
+* [MPO](src/organic/MPO/MPO.md)
+* [ETN](src/organic/ETN/ETN.md)
+* [TMETN](src/organic/TMETN/TMETN.md)
 
 ### 无机物
 
-* [叠氮化银](docs/inorganic/叠氮化银/叠氮化银.md)
-* [氰化钾](docs/inorganic/氰化钾/氰化钾.md)
+* [叠氮化银](src/inorganic/叠氮化银/叠氮化银.md)
+* [氰化钾](src/inorganic/氰化钾/氰化钾.md)
