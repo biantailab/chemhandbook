@@ -1,3 +1,9 @@
+---
+noteId: "c4580390450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## PETN的介绍
 
 <div class="smiles">C(C(CO[N+](=O)[O-])(CO[N+](=O)[O-])CO[N+](=O)[O-])O[N+](=O)[O-]</div>

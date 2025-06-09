@@ -1,3 +1,9 @@
+---
+noteId: "b22ad8a0450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## DAF的介绍
 
 <div class="smiles">C1(=NON=C1N)N</div>

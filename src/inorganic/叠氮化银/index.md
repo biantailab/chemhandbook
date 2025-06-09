@@ -1,3 +1,9 @@
+---
+noteId: "9f254f10450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## 叠氮化银的介绍
 
 <div class="smiles">[Ag+].[N-]=[N+]=[N-]</div>

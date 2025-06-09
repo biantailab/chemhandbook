@@ -1,3 +1,9 @@
+---
+noteId: "cc71aef0450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## TNT的介绍
 
 <div class="smiles">CC1=C(C=C(C=C1[N+]([O-])=O)[N+]([O-])=O)[N+]([O-])=O</div>

@@ -1,3 +1,9 @@
+---
+noteId: "af91b730450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## 4-NI的介绍
 
 <div class="smiles">C1=C(N=CN1)[N+](=O)[O-]</div>

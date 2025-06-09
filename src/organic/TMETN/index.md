@@ -1,3 +1,9 @@
+---
+noteId: "ca5dc310450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## TMETN的介绍
 
 <div class="smiles">CC(CO[N+](=O)[O-])(CO[N+](=O)[O-])CO[N+](=O)[O-]</div>

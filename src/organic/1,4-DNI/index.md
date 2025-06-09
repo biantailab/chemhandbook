@@ -1,3 +1,9 @@
+---
+noteId: "abc6a570450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## 1,4-DNI的介绍
 
 <div class="smiles">C1=C(N=CN1[N+](=O)[O-])[N+](=O)[O-]</div>

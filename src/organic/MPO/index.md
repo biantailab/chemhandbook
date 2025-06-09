@@ -1,3 +1,9 @@
+---
+noteId: "c267a540450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## MPO的介绍
 
 <div class="smiles">CC1=NC(=CC(=O)N1)O</div>

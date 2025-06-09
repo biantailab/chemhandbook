@@ -1,3 +1,9 @@
+---
+noteId: "bb722e90450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## FOX-7的介绍
 
 <div class="smiles">C(=C([N+](=O)[O-])[N+](=O)[O-])(N)N</div>

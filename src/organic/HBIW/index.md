@@ -1,3 +1,9 @@
+---
+noteId: "be4aca00450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## HBIW的介绍
 
 <div class="smiles">[O-][N+](=O)N1C2C3N(C4C(N3[N+]([O-])=O)N(C(C1N4[N+]([O-])=O)N2[N+]([O-])=O)[N+]([O-])=O)[N+]([O-])=O</div>

@@ -1,3 +1,9 @@
+---
+noteId: "b8f60b00450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## ETN的介绍
 
 <div class="smiles">C([C@H]([C@H](CO[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-]</div>

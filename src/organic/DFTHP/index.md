@@ -1,3 +1,9 @@
+---
+noteId: "b4b52d00450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## DFTHP的介绍
 
 <div class="smiles">OC1C(O)N(C=O)C(O)C(O)N1C=O</div>

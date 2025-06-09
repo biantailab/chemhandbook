@@ -1,29 +1,42 @@
-// 创建“回到顶部”按钮
+// 创建"回到顶部"按钮
 const backToTopButton = document.createElement('a');
 backToTopButton.className = 'back-to-top';
 backToTopButton.innerHTML = '回到顶部';
 backToTopButton.href = '#'; // 防止页面刷新
 document.body.appendChild(backToTopButton);
 
-let lastScrollY = window.scrollY;
-let isScrollingUp = false;
+// 设置初始状态
+backToTopButton.style.transform = 'translateY(100px)';
+backToTopButton.style.opacity = '0';
+backToTopButton.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
 
-// 监听滚动事件
-window.addEventListener('scroll', () => {
-  const currentScrollY = window.scrollY;
+// 节流函数
+function throttle(callback, delay) {
+  let lastCall = 0;
+  return function (...args) {
+    const now = new Date().getTime();
+    if (now - lastCall < delay) {
+      return;
+    }
+    lastCall = now;
+    return callback(...args);
+  };
+}
 
-  // 判断是否向上滑动
-  isScrollingUp = currentScrollY < lastScrollY && currentScrollY > 300;
-
-  // 更新按钮显示状态
-  if (isScrollingUp) {
-    backToTopButton.classList.add('visible');
+// 处理滚动逻辑
+function handleScroll() {
+  const scrollY = window.scrollY;
+  if (scrollY > 300) {
+    backToTopButton.style.transform = 'translateY(0)';
+    backToTopButton.style.opacity = '1';
   } else {
-    backToTopButton.classList.remove('visible');
+    backToTopButton.style.transform = 'translateY(100px)';
+    backToTopButton.style.opacity = '0';
   }
+}
 
-  lastScrollY = currentScrollY;
-});
+// 使用节流处理滚动事件
+window.addEventListener('scroll', throttle(handleScroll, 150));
 
 // 点击平滑滚动到顶部
 backToTopButton.addEventListener('click', (e) => {

@@ -1,3 +1,9 @@
+---
+noteId: "c76a9ac0450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## RDX的介绍
 
 <div class="smiles">C1N(CN(CN1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]</div>

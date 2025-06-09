@@ -1,3 +1,9 @@
+---
+noteId: "ce8ee9a0450911f08f719f29976b22cf"
+tags: []
+
+---
+
 ## 甘脲的介绍
 
 <div class="smiles">C12C(NC(=O)N1)NC(=O)N2</div>
