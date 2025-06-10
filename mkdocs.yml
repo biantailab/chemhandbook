@@ -84,6 +84,7 @@ plugins:
       type: timeago
       fallback_to_build_date: true
       enable_creation_date: true
+      timezone: UTC
 markdown_extensions:
   - admonition
   - attr_list
