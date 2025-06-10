@@ -80,10 +80,8 @@ extra_javascript:
   - js/custom.js
 plugins:
   - search
-  - git-revision-date-localized:
-      type: timeago
-      fallback_to_build_date: true
-      enable_creation_date: true
+  - git-revision-date-plugin:
+      type: datetime
       timezone: UTC
 markdown_extensions:
   - admonition
