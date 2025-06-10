@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+  
+  <h2 id="__comments">留言</h2>
+  <div id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="b42a978b-8d6e-4c34-9fa4-ef2183900649"
+    data-page-id="{{ page.url }}"
+    data-page-title="{{ page.title }}"
+  ></div>
+  <script async src="https://cusdis.com/js/cusdis.es.js"></script>
+{% endblock %} 
