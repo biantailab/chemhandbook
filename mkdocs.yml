@@ -80,9 +80,6 @@ extra_javascript:
   - js/custom.js
 plugins:
   - search
-  - git-revision-date-plugin:
-      type: datetime
-      timezone: UTC
 markdown_extensions:
   - admonition
   - attr_list
