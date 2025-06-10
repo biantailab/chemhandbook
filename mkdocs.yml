@@ -55,6 +55,25 @@ theme:
     - navigation.expand
     - navigation.instant
   custom_dir: src/overrides
+  footer:
+    - 评论:
+        - 评论系统: |
+            <div class="giscus"></div>
+            <script src="https://giscus.app/client.js"
+                  data-repo="biantailab/chemhandbook"
+                  data-repo-id="R_kgDOO4ThXQ"
+                  data-category="General"
+                  data-category-id="DIC_kwDOO4ThXc4CrSBm"
+                  data-mapping="url"
+                  data-strict="0"
+                  data-reactions-enabled="1"
+                  data-emit-metadata="0"
+                  data-input-position="top"
+                  data-theme="preferred_color_scheme"
+                  data-lang="zh-CN"
+                  crossorigin="anonymous"
+                  async>
+            </script>
 
 copyright: Copyright &copy; 2025 BianTai LAB <p xmlns:cc="http://creativecommons.org/ns#" ><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
 
@@ -78,7 +97,6 @@ extra_javascript:
   - js/chemdraw.js
   - js/smiles-drawer.min.js
   - js/custom.js
-  - https://cusdis.com/js/cusdis.es.js
 plugins:
   - search
   - git-revision-date-localized:
