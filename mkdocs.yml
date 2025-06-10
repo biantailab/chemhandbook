@@ -72,12 +72,9 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: https://t.me/+eCTrA4kOiCI2ZTA1
       name: Telegram
-extra_css:
-  - css/custom.css
 extra_javascript:
   - js/chemdraw.js
   - js/smiles-drawer.min.js
-  - js/custom.js
 plugins:
   - search
 markdown_extensions:
