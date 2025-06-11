@@ -3,21 +3,13 @@
 {% block content %}
   {{ super() }}
   {% if not page.meta.hide %}
-    <div class="giscus"></div>
-    <script src="https://giscus.app/client.js"
-          data-repo="biantailab/chemhandbook"
-          data-repo-id="R_kgDOO4ThXQ"
-          data-category="General"
-          data-category-id="DIC_kwDOO4ThXc4CrSBm"
-          data-mapping="url"
-          data-strict="0"
-          data-reactions-enabled="1"
-          data-emit-metadata="0"
-          data-input-position="top"
-          data-theme="preferred_color_scheme"
-          data-lang="zh-CN"
-          crossorigin="anonymous"
-          async>
+    <script src="https://utteranc.es/client.js"
+            repo="biantailab/chemhandbook"
+            issue-term="pathname"
+            label="comment"
+            theme="preferred-color-scheme"
+            crossorigin="anonymous"
+            async>
     </script>
   {% endif %}
-{% endblock %} 
+{% endblock %}
