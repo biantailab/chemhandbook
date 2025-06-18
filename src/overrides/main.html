@@ -3,21 +3,59 @@
 {% block content %}
   {{ super() }}
   {% if not page.meta.hide %}
-    <div class="giscus"></div>
-    <script src="https://giscus.app/client.js"
-          data-repo="biantailab/chemhandbook"
-          data-repo-id="R_kgDOO4ThXQ"
-          data-category="General"
-          data-category-id="DIC_kwDOO4ThXc4CrSBm"
-          data-mapping="url"
-          data-strict="0"
-          data-reactions-enabled="1"
-          data-emit-metadata="0"
-          data-input-position="top"
-          data-theme="preferred_color_scheme"
-          data-lang="zh-CN"
-          crossorigin="anonymous"
-          async>
-    </script>
+    <div class="utterances-container">
+      <div class="utterances-light">
+        <script src="https://utteranc.es/client.js"
+              repo="biantailab/chemhandbook"
+              issue-term="pathname"
+              label="comment"
+              theme="github-light"
+              crossorigin="anonymous"
+              async>
+        </script>
+      </div>
+      
+      <div class="utterances-dark">
+        <script src="https://utteranc.es/client.js"
+              repo="biantailab/chemhandbook"
+              issue-term="pathname"
+              label="comment"
+              theme="github-dark"
+              crossorigin="anonymous"
+              async>
+        </script>
+      </div>
+    </div>
+    
+    <style>
+      .utterances-container {
+        position: relative;
+      }
+      
+      .utterances-light,
+      .utterances-dark {
+        width: 100%;
+      }
+      
+      .utterances-dark {
+        display: none;
+      }
+      
+      [data-md-color-scheme="slate"] .utterances-light {
+        display: none;
+      }
+      
+      [data-md-color-scheme="slate"] .utterances-dark {
+        display: block;
+      }
+      
+      .md-theme--slate .utterances-light {
+        display: none;
+      }
+      
+      .md-theme--slate .utterances-dark {
+        display: block;
+      }
+    </style>
   {% endif %}
 {% endblock %} 
