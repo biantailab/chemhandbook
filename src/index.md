@@ -35,7 +35,7 @@
 
 ## 致谢
 
-- <a href="https://github.com/reymond-group/smilesDrawer" target="_blank">smilesDrawer</a>
+* <a href="https://github.com/reymond-group/smilesDrawer" target="_blank">smilesDrawer</a>
 
 ## 许可
 
